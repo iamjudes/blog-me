@@ -4,6 +4,7 @@
   "version": "3.3.7+1",
   "homepage": "https://github.io/iamjudes/blog-me",
   "author": "Jude",
+  "deploy": "gh-pages -d dist",
 
   "devDependencies": {
     "bootstrap": "^3.3.7",
