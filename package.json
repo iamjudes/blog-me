@@ -4,8 +4,10 @@
   "version": "3.3.7+1",
   "homepage": "https://github.io/iamjudes/blog-me",
   "author": "Jude",
-  "deploy": "gh-pages -d dist",
-
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d dist"
+  },
   "devDependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.13.0",
